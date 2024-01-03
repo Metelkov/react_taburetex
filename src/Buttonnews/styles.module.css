@@ -1,0 +1,24 @@
+
+.btnPageSelect {
+    margin: 1%;
+    width: 5%;
+    height: 3%;
+    text-align: center;
+}
+
+.btnPageSelect:active {
+    margin: 1%;
+    border: 2px solid orange;
+    font-weight: bold;
+}
+.btnPageSelect:focus {
+    margin: 1%;
+    border: 2px solid orange;
+    font-weight: bold;
+}
+
+.page__current {
+    margin: 1%;
+    border: 2px solid orange;
+    font-weight: bold;
+}

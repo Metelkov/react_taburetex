@@ -1,0 +1,140 @@
+.headMenuFrame {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 49px;
+    width: 100%;
+}
+
+li {
+    padding: 5px;
+    margin-left: -41px;
+    border: 1px solid;
+    border-color: aquamarine;
+}
+li:hover {
+    color:white;
+    background-color: rgba(0, 66, 37, 0.99);
+}
+
+.menuList {
+    list-style-type: none;
+    width: 100%;
+    display: none;
+    background-color: rgba(46, 139, 87, 0.99);
+}
+
+.menuAbout {
+    width: 20%;
+    height: 82%;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgba(46, 139, 87, 0.99);
+}
+
+
+.menuAbout:hover .menuList{
+    color:black;
+    background-color: rgba(46, 139, 87, 0.99);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: left;
+    align-items: left;
+    width: 300px;
+    top: 75px;
+    z-index: 2;
+}
+
+.menuProduct {
+    width: 20%;
+    height: 82%;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgba(46, 139, 87, 0.99);
+}
+
+.menuProduct:hover .menuList{
+    color:black;
+    background-color: rgba(46, 139, 87, 0.99);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: left;
+    align-items: left;
+    width: 300px;
+    top: 75px;
+    z-index: 2;
+}
+
+.menuDocum {
+    width: 20%;
+    height: 82%;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgba(46, 139, 87, 0.99);
+}
+
+.menuDocum:hover .menuList{
+    color:black;
+    background-color: rgba(46, 139, 87, 0.99);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: left;
+    align-items: left;
+    width: 300px;
+    top: 75px;
+    z-index: 2;
+}
+
+.menuCareer {
+    width: 20%;
+    height: 82%;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgba(46, 139, 87, 0.99);
+}
+
+.menuCareer:hover .menuList{
+    color:black;
+    background-color: rgba(46, 139, 87, 0.99);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: left;
+    align-items: left;
+    width: 300px;
+    top: 75px;
+    z-index: 2;
+}
+
+.menuContacts {
+    width: 20%;
+    height: 82%;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgba(46, 139, 87, 0.99);
+}
+
+.menuContacts:hover .menuList{
+    color:black;
+    background-color: rgba(46, 139, 87, 0.99);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: right;
+    align-items: right;
+    width: 260px;
+    top: 75px;
+    z-index: 2;
+    margin-left: -5%;
+}

@@ -1,0 +1,10 @@
+.root {
+    display: flex;
+    width: 20%;
+    height: 200px;
+    background-image: url(../../pic/main.jpg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px dashed;
+}

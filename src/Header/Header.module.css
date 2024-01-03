@@ -1,0 +1,26 @@
+.headerWrap {
+    display: flex;
+    width: 80%;
+    height: 50px;
+    background-color: rgba(0, 163, 87, 0.2);
+}
+
+.headerTitleWrap {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+}
+
+.headerTitleName {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(46, 139, 87, 0.99);
+}
+
+.headerButtonWrap {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

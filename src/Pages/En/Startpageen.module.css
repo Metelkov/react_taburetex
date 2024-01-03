@@ -1,0 +1,40 @@
+.startPageEnWrap {
+    margin: 0;
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px dashed;
+}
+
+.mainPic {
+    width: 100%;
+    height: 200px;
+    background-image: url(../../pic/main.jpg);
+    background-size: 36%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.startPageBodyEn {
+    border: 1px dotted;
+}
+
+.startPageMiddleEn {
+    display: flex;
+    flex-direction: row;
+}
+
+.startPageMiddleLeftEn {
+    width: 40%;
+}
+
+.startPageMiddleSeparateEn {
+    width: 5%;
+}
+
+.startPageMiddleRightEn {
+    width: 55%;
+}

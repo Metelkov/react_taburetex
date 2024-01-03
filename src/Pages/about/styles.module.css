@@ -1,0 +1,50 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 150px);
+    width: 100%;
+    background-color: white;
+}
+
+.blockWrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.productDescript {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.descript {
+    display: flex;
+    width: 45%;
+    text-align: left;
+    border: 2px rgb(205, 241, 181) solid;
+    margin: 5px 0px;
+}
+
+.descript p {
+    margin: 2%;
+}
+
+.photo {
+    display: flex;
+    width: 55%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.picture {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 200px;
+    margin: 1% 11%;
+    justify-content: space-evenly;
+}

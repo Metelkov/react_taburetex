@@ -1,0 +1,56 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 150px);
+    width: 100%;
+    background-color: white;
+}
+
+.headerFrameVacansie {
+    display: flex;
+    width: 90%;
+}
+
+.headerNameArea {
+    display: flex;
+    width: 20%;
+}
+
+.headerjobPriceArea {
+    display: flex;
+    width: 20%;
+}
+
+.headerjobAboutArea {
+    display: flex;
+    width: 60%;
+   justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.oneFrameCurrentVacansie {
+    display: flex;
+    width: 90%;
+    border: 1px solid;
+    border-color: aqua;
+    margin: 1.6%;
+}
+
+.jobNameArea {
+    display: flex;
+    width: 25%;
+    margin: 1%;
+}
+
+.jobPriceArea {
+    display: flex;
+    width: 20%;
+    margin: 1%;
+}
+
+.jobAboutArea {
+    display: flex;
+    width: 55%;
+    margin: 1%;
+}
